@@ -1,2 +1,3 @@
-# Git and github course
-crash course for git
+# Hello.
+Надеюсь я стану frontend разработчиком.
+
