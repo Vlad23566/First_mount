@@ -4,3 +4,16 @@
 .text2 {
 	color:blue;
 }
+body{
+	background-color:#FFE2B0 ;
+}
+/* text-align - линейное расположение;center-центр экрана  */
+/* обращаемся именно к тегу header потому что text-align  обращается только к тому
+что расположено внутри тега т.е в данном случае
+только то что внутри header*/
+header{
+	text-align:center;
+}
+h1{
+	font-size: 15px;
+}
