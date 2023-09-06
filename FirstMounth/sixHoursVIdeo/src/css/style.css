@@ -17,3 +17,31 @@ header{
 h1{
 	font-size: 15px;
 }
+/* 	list-style-type:none;
+убираем точки  из списка  , есть там и другие классные вместо того 
+чтобы убирать можно сделать буквы сигма альфа и тд*/
+ul{
+	list-style-type:none;
+	text-align: center;
+}
+/* text-decoration: none убираем подчеркивание  */
+a{
+	color:black;
+	text-decoration:none;
+	font-size: 18px;
+	 
+}
+/* magrin- внешний отступ  можно к каждому конкретному полю
+а можно сделать margin и прописать парамметры они идут по часовой стрелке
+т.е  верх право низ лево просто через пробел*/
+ /*c padding тоже можно как с margin  */
+ /* в бордере тоже сначала размер рамки потом то как 
+ будет выглядеть  и цвет  */
+/* padding - внутрненний отступ Внутри рамки */
+/* border -это рамка  */
+.hidiv{
+	background-color: green;
+	border:5px dashed red ;
+	margin: 10px 10px 10px 10px;
+	padding: 15px 3px  3px 14px
+}
