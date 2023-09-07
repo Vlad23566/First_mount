@@ -64,6 +64,7 @@ li:last-child{
 	background-position: center;
 	background-size: cover;
 	position: relative;
+	margin-bottom: 20px;
 }
 
 .section-about__block {
@@ -72,8 +73,8 @@ li:last-child{
 	background:linear-gradient(180deg, rgba(244,213,178,0.8)
 	0%,rgba(244,156,65,0.8)100%);
 	position:absolute;
-	top: 349px;
-	left:  730px;
+	top: 54%;/* чтобы всё работало гармонично нужно указывать в % для этого мы смотрим допустим тут надо сделать отступ от родительского элемента в 349 px мы смотрим сколько в высоту у нас всего родительский элемент в нашем случае это 640 и нужно посчитать сколько это процентов т.е 349/640*100 */
+	left:  50.7%;/* тут также было 700  с чем то  */
 	padding-top: 15px;
 	text-align: center;
 	}
@@ -99,5 +100,18 @@ li:last-child{
 	}
 	.section-about__text{
 		margin:0 ;
-		font-size: 12px;
+		font-size:  12px;;
 	} 
+
+	.section-desctiption_icon-box {
+		text-align: center;
+		margin: 0 auto;
+	}
+	/* селектор класса .selection-about{; селектор тега ing{  ; селектор  обращаения ко всем элементам * ; можно обращаться как к уникальному идентификатору  если в теге вместо класса писать id а тут # вместо точки;
+		можно обращаться к дочерним элементам класса  для этого пишем название класса а дальше через пробел его теги к которым мы обращаемся */
+		.section-desctiption_icon-box img{
+			margin-right: 76px;
+		}
+		.section-desctiption_icon-box img :last-child {
+			margin-right: 0px;
+		}
