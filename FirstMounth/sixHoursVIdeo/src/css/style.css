@@ -1,3 +1,6 @@
+*{
+	box-sizing: border-box;
+}
 .text1 {
 	color: red;
 }
@@ -60,10 +63,37 @@ li:last-child{
 	height: 640px;
 	background-position: center;
 	background-size: cover;
+	position: relative;
 }
 
 .section-about__block {
 	width: 420px;
 	height: 190px;
-	background:linear-gradient(180deg, green,red,yellow,blue)
-}
+	background:linear-gradient(180deg, rgba(244,213,178,0.8)
+	0%,rgba(244,156,65,0.8)100%);
+	position:absolute;
+	top: 349px;
+	left:  730px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	}
+
+	.section-about_border{
+	background-color:(180deg, rgba(244,213,178,0.8)
+	0%,rgba(244,156,65,0.8)100%);
+	width: 390px;
+	height: 160px;
+	border: 1px solid #000000 ;
+	margin: 0 auto;/*  слово auto (работает только если есть width)
+	берет всё возможное пространство и слева и справа и выравнивает по центру ; 
+	это выравнивать блочный элемент по горизонтали по центру */
+	}
+	.naming{
+		padding-left: 28px;
+		margin-top: 17px;
+	 margin-bottom: 0;
+	}
+	.texting{
+		margin:0;
+		padding-top: 9px;
+	} 
