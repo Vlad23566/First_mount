@@ -75,7 +75,7 @@ li:last-child{
 	top: 349px;
 	left:  730px;
 	padding-top: 15px;
-	padding-bottom: 15px;
+	text-align: center;
 	}
 
 	.section-about_border{
@@ -87,13 +87,17 @@ li:last-child{
 	margin: 0 auto;/*  слово auto (работает только если есть width)
 	берет всё возможное пространство и слева и справа и выравнивает по центру ; 
 	это выравнивать блочный элемент по горизонтали по центру */
+	padding-top: 17px;
+	padding-left: 28px;
+	text-align: left;
 	}
-	.naming{
-		padding-left: 28px;
-		margin-top: 17px;
-	 margin-bottom: 0;
+	.section-about__title{
+		margin: 0 auto;
+		font-size: 36px;
+		margin-bottom: 9px;
+
 	}
-	.texting{
-		margin:0;
-		padding-top: 9px;
+	.section-about__text{
+		margin:0 ;
+		font-size: 12px;
 	} 
