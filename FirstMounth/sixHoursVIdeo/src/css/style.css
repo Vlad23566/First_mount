@@ -61,3 +61,9 @@ li:last-child{
 	background-position: center;
 	background-size: cover;
 }
+
+.section-about__block {
+	width: 420px;
+	height: 190px;
+	background:linear-gradient(180deg, green,red,yellow,blue)
+}
