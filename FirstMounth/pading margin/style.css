@@ -1,0 +1,40 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding: 0;
+}
+.Object {
+ background-image: url(01-Картинка-фона.jpg);
+ height: 600px;
+ width: 650px;
+ background-size: cover;
+ background-position: center;
+ margin: 50px 10px 15px 30px;
+ padding:350px 0px 0px 350px;
+ position: relative;
+
+}
+ .Object2 {
+	height: 200px;;
+	width: 300px;
+	border: double;
+	background: linear-gradient(180deg, rgba(244, 213, 178, 0.8) 0%, rgba(244, 156, 65, 0.8) 100%);
+	position: relative;
+	font-size: medium;
+
+}
+
+.title {
+	font-size:24px;
+	text-align: center;
+	margin-bottom: 5px;
+}
+.text {
+	font-size: 10px;
+	text-align: left;
+	padding-left: 20px;
+}
+/* 	position:absolute; 	position: relative;
+/* border -это рамка  */
+
+
