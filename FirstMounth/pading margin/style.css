@@ -14,25 +14,33 @@
  position: relative;
 
 }
- .Object2 {
+.Object2{
 	height: 200px;;
 	width: 300px;
-	border: double;
 	background: linear-gradient(180deg, rgba(244, 213, 178, 0.8) 0%, rgba(244, 156, 65, 0.8) 100%);
-	position: relative;
+	position: absolute;
+	padding:15px 10px 15px 10px;
+	
+}
+ .Object3 {
+	height: 170px;;
+	width: 280px;
 	font-size: medium;
-
+	border: double;
+	padding-top:10px;;
 }
 
 .title {
-	font-size:24px;
+	margin: 0 auto;
 	text-align: center;
-	margin-bottom: 5px;
+	font-size: 15px;
+	margin-bottom: 7px;
 }
 .text {
 	font-size: 10px;
 	text-align: left;
 	padding-left: 20px;
+
 }
 /* 	position:absolute; 	position: relative;
 /* border -это рамка  */
