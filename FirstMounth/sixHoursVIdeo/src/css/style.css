@@ -111,7 +111,47 @@ li:last-child{
 		можно обращаться к дочерним элементам класса  для этого пишем название класса а дальше через пробел его теги к которым мы обращаемся */
 		.section-desctiption_icon-box img {
 			margin-right: 76px;
+			margin-bottom: 20px;
 		}
 		.section-desctiption_icon-box img:last-child {
 			margin-right: 0px;
 		}
+		.section-desctiption__title {
+			font-size: 96px;
+			margin: 0;
+			text-align: center;
+		}
+		.section-desctiptio__span{
+			color:#f15b40;
+		}
+		.section-desctiption__text {
+			margin: 0px;
+			font-size: 18px;
+			text-align: center;
+			width: 1000px;
+			margin:0 auto;
+			margin-bottom: 20px;
+		}
+		.section-map{
+			margin-bottom: 20px;
+		}
+		.section-map__title {
+			margin-bottom: 20px;
+			text-align: center;
+			font-size: 36px;
+		}
+		iframe{
+			display: block;
+			margin: 0 auto;
+		}
+		/* .line{
+			border-top: 1px solid #999999;
+			width: 1024px;
+			margin: 0 auto;
+		} */
+		hr{border:none;
+			border-top: 1px solid #999999;
+			width: 1024px;
+			margin: 0 auto;
+			margin-bottom: 20px	;}
+		footer{height:90px;}
