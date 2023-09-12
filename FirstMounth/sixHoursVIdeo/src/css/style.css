@@ -1,6 +1,11 @@
 *{
 	box-sizing: border-box;
 }
+@font-face {
+	font-family: "Roboto!";
+	src: local('Roboto');
+	src:url(../fonts/Roboto-Regular.ttf)
+}
 .text1 {
 	color: red;
 }
@@ -155,3 +160,10 @@ li:last-child{
 			margin: 0 auto;
 			margin-bottom: 20px	;}
 		footer{height:90px;}
+		/* h2{
+			font-family: 'Roboto', sans-serif;
+			font-weight: 700;
+		} */
+		h2{
+			font-family:'Roboto!';
+		}
