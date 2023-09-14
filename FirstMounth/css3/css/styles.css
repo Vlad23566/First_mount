@@ -1,137 +1,25 @@
-/* *
-{color:red}
-.heading1{
-	text-decoration:underline;
+/* p{
+	background-color: green;
+	color:white;
+	padding:10px
 }
-.heading2{
-	text-transform: uppercase;
-}
-.fz20{
-	font-size: 20px;
-}
-#heading{font-size: 35px;
-border: 1px solid black;}
-q.aboba{
-	color: green;
-}
-q{
-	color:blue;
-}
-body q.aboba{color:gray}
-div p {
-	color:fuchsia
-}
-div p span{
-	color:yellow
-}
-ul li >span{
-	font-size: 35px;
-}
-
-/* ul li span{
-	font-size: 35px;
-} */
-
-/* будут все последующие кроме первой li кто находится в теге ul */
-/* ul li+li{
-	color:aqua
-} */
-/* будут все которые находятся в теге p после br */
-/* br ~ p{
-	font-size: 53px;
-} */
-/* a[target]{
-	background-color: rgb(80, 52, 52);
-} */
-/* a[target="_blank"]{
-	background-color: blueviolet;
-} */
-/* все станут таким цветом которые начинатются  с такого адреса */
-/* a[href^="http://123"]{
+.style1{
 	background-color: aqua;
-} */
-/* так всё проверяется с конца  т.е jgp где есть в конце сделает таким цветом */
-/* a[href$="jpg"]{
-	background-color: #2d2768;
-} */
-/* проверяется есть ли в наличии данный знак */
-/* a[href*="4"]{
-	background-color: rgb(5, 39, 39);
-} */ 
-/* ниже про псевдоэлементы и псевдоклассы */
-
-a{
 	color:black;
-	text-decoration: none;/* Убрать подчёркивание */
+	border:none !important;
 }
-a:hover{/* менять значение по наведению */
-	color:red;
+#style2{
+	background-color: pink;
+	border:2px solid black;
 
 }
-a:visited{/* если уже посетил допустим сайт */
-	color:aqua
+p{
+	background-color: gray;
+} */
+body{
+	color: red;
+	border: 1px solid black;
 }
-a:active{/* кога нажимаешь что делается типо лкм зажал и держишь допустим */
-	color:green
-}
-a:focus{/* когда нажимаешь и в первую микросекунду сразу это происходит */
-	font-size: 64px;
-}
-p::first-letter{/* свойство у первой буквы  */
-	font-size: 35px;
-}
-p::first-line{/* для стилизации первой строки  */
-	text-decoration: underline;
-}
-p::selection{/* когда мы выделаем текст то что с ним происходит */
-	background-color: green;
-}
-h1::before{/* типо делает получается текст перед h1 но в этом же теге
-	т.е фактически просто можем вставить текст перед ним и сделать с ним что то */
-	content:"этот канал называется ";
-	text-transform: uppercase;/* делаем текст большим */
-
-}
-h1::after{/* типо делает получается текст после h1 но в этом же теге
-	т.е фактически просто можем вставить текст после него и сделать с ним что то */
-	content:"и на нем  я смотрю этот ролик ";
-	font-size: 35px;
-	color:red
-
-}
-.list1 li:first-child{/*  где лист 1 название класса у ul */
-	color:red
-}
-.list1 li:last-child{
-	color:brown
-}
-.list2 li:nth-child(even){/* для каждого чётного элемента */
-	background-color: red;
-}
-.list2 li:nth-child(odd){/* для каждого нечётного элемента  */
-	background-color: blue;
-}
-.list2 li:nth-child(1){/* для какого то конкретного элемента из списка */
-	background-color: green;
-}
-.list3 li:nth-child(2n+0){/* Для каждого 2 элемента начиная с 0 тут плюс показывает ОТ а не С какого элемента начинаем */
-	background-color: green;
-	text-transform:uppercase;
-}
-.list3 li:nth-child(4n+2){
-font-size: 15px;
-border: 1px solid black;
-}
-/* точно также можно с типами данных */
-/*  */
-.text span:first-of-type{
-	color:red
-}
-.text span:last-child{
-background-color:black;
-}
-.text span:nth-of-type(2){
-	border:1px solid black
-}.list4  li:not(.item){/*  сделай это свойство ко всему классу лист4 к тегам ли у которых нет класса item */
-	border:1px solid blue
+p{
+	border:inherit
 }
